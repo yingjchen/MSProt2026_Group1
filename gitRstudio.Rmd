@@ -1,0 +1,62 @@
+---
+title: "Enabling access to git from Rstudio"
+output: html_document
+date: "2026-04-09"
+---
+
+# ✅ Step 1: Create a GitHub Access Token
+1. Go to GitHub
+2. Click your profile (top right) → Settings
+3. Scroll down → Developer settings
+4. Click Personal access tokens → Tokens (classic) (or fine-grained tokens)
+5. Click Generate new token
+
+Choose:
+- Expiration: e.g., 90 days (recommended)
+- Scopes (important):
+  - ✅ repo (for private repos)
+  - ✅ workflow (optional)
+
+6. Click Generate token
+7. ⚠️ Copy the token immediately (you won’t see it again)
+
+
+# ✅ Step 2: Set Token in RStudio
+
+In RStudio, run:
+```{r}
+install.packages("usethis")
+library(usethis)
+
+usethis::edit_r_environ()
+```
+
+Then add this line to the file that opens:
+
+`GITHUB_PAT=your_token_here`
+
+Save and restart RStudio.
+
+# ✅ Step 3: Verify it works
+
+Run:
+```{r}
+install.packages("gitcreds")
+gitcreds::gitcreds_get()
+```
+
+Or test with:
+
+```{r}
+usethis::gh_token_help()
+```
+
+💡 Alternative (recommended, easier)
+
+You can also let R handle it:
+
+```{r}
+usethis::create_github_token()
+```
+
+This opens GitHub and guides you automatically.

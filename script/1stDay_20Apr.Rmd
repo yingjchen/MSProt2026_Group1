@@ -50,6 +50,8 @@ knitr::opts_chunk$set(echo = FALSE)
 *Base peak chromatogram plot*: The intensity of the base peak (the most intense ion in each mass spectrum) is plotted as a function of time (Note that the base peak should not be confused with the baseline, which represents the constant background signal of the instrument).
 *XIC or EIC plot*: The intensity of a specific analyte at a chosen m/z value (either total or base peak intensity) is isolated and plotted as a function of time.
 ![Chromatogram plots](~/Documents/MSProt2026/fig/TIC_XIC.png)
+## Group Activity
+Open "GroupActivity_20Apr.html" file.
 
 ## Getting data
 Get to know the ProteomeXchange Consortium: Established to create globally coordinated, standardized pipelines for data submission and dissemination across major proteomics repositories, the Consortium promotes open data policies in proteomics.
