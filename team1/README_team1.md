@@ -1,4 +1,4 @@
-# Team 1: Jan, Ynigjia, Rhiannon, Faezeh, Muskan
+# Team 1: Jan, Yingjia, Rhiannon, Faezeh, Muskan
 
 ## Capstone Project Folder
 
@@ -13,19 +13,19 @@ University of Helsinki – Spring 2026
 
 Each team member should take responsibility for one or more of the following tasks:
 
-- **SDRF Maker**  ()
+- **SDRF Maker**  (Rhiannon Newman)
 
   Responsible for creating and validating the `SDRF.tsv` file according to required standards.
 
-- **Software Runner**  ()
+- **Software Runner**  (Muskan Kumari)
 
   Handles running the assigned DIA analysis software and generating identification results.
 
-- **Repository Manager (Pulling Fork)** ()  
+- **Repository Manager (Pulling Fork)** (Yingjia Chen)  
 
   Manages the GitHub workflow, including pulling updates, maintaining the fork, and organizing files.
 
-- **Report Writer**  ()
+- **Report Writer**  (Faezeh Ramezani)
 
   Leads the documentation and writing of project reports, including methods, results, and interpretations.
 
